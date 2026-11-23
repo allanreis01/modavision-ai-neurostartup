@@ -1,0 +1,6 @@
+id_experimento,modelo,tipo,arquitetura,parametros_treinaveis,epocas_executadas,acuracia_treino,acuracia_validacao,val_loss
+5,CNN_ModaVision,Rede Convolucional (CNN - Bônus),Conv2D(32)->Pool->Conv2D(64)->Pool->Flatten->Dense(128)->Dense(10),421642,25,0.9612,0.9313,0.2018
+4,MLP_Profunda_256_128_64,Rede Densa (MLP),"Dense(256, ReLU)+Drop(0.2) -> Dense(128, ReLU)+Drop(0.2) -> Dense(64, ReLU)+Drop(0.2) -> Dense(10, Softmax)",242762,28,0.9272,0.8986,0.3029
+3,MLP_Media_128_64,Rede Densa (MLP),"Dense(128, ReLU)+Drop(0.2) -> Dense(64, ReLU)+Drop(0.2) -> Dense(10, Softmax)",109386,23,0.915,0.8939,0.3055
+2,MLP_Simples_64,Rede Densa (MLP),"Dense(64, ReLU)+Drop(0.2) -> Dense(10, Softmax)",50890,25,0.9099,0.8913,0.3091
+1,Baseline (LogisticRegression),Linear (scikit-learn),Flatten(784) -> Linear(10),7850,1,0.8769,0.8612,

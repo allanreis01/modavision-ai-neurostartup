@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# Arquivos de configuração de IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Variáveis de ambiente e segredos (nunca versionar credenciais)
+.env
+.env.*
+*.pem
+*.key
+
+# Cache e logs temporários
+.cache/
+.pytest_cache/
+.mypy_cache/
+*.log
+logs/
+tensorboard_logs/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Garantir que os artefatos obrigatórios do projeto ModaVision AI NÃO sejam ignorados:
+!neurostartup.ipynb
+!experimentos.csv
+!melhor_modelo_modavision.keras
+!MODEL_CARD.md
+!README.md
+!requirements.txt
+!print_tela.png

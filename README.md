@@ -45,8 +45,8 @@ A **ModaVision AI** desenvolveu um sistema de Visão Computacional baseado em **
 ### Passo a Passo
 1. **Clone este repositório** e acesse a pasta do projeto:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DA_PASTA>
+   git clone https://github.com/allanreis01/modavision-ai-neurostartup.git
+   cd modavision-ai-neurostartup
    ```
 
 2. **(Opcional, mas recomendado) Crie e ative um ambiente virtual:**
